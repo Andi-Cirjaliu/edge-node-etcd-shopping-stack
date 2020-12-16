@@ -10,6 +10,7 @@
     "Frontend",
     "Backend"
   ],
+  "tags": [],
   "platform": "Kubernetes",
   "cover": "cover.md",
   "commands": [
