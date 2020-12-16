@@ -30,6 +30,10 @@
       "enabled": true
     }
   ],
+  "deployment_information": {
+    "Operator Project": "NA",
+    "Deployment Namespace": "us-emp-stack"
+  },
   "buckets": [],
   "meta": {
     "Install time": [
@@ -38,6 +42,8 @@
     "Language": [
       "NodeJs"
     ],
+    "Type":["Operators"],
+    "Tag": [],
     "categories": [
       "Express",
       "Frontend",
