@@ -16,7 +16,7 @@
   ],
   "has_dataset": false,
   "has_api": false,
-  "git_url": "https://github.com/Andi-Cirjaliu/-edge-node-etcd-shopping-deploy.git",
+  "git_url": "https://github.com/Andi-Cirjaliu/edge-node-etcd-shopping-deploy.git",
   "git_commit": "75df2064ab4d2220756e5e14f257fc3b46d28d6e",
   "installTime": "10 minutes",
   "isStacksSaved": true

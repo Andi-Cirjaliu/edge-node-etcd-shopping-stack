@@ -15,7 +15,11 @@
   "commands": [
     {
       "description": "Clone the repository",
-      "exec": "git clone https://github.com/Andi-Cirjaliu/-edge-node-etcd-shopping-deploy.git"
+      "exec": "cd /home/student/projects && git clone https://github.com/Andi-Cirjaliu/edge-node-etcd-shopping-deploy.git"
+    },
+    {
+      "description": "Install and start the application using skaffold tool",
+      "exec": "cd /home/student/projects/edge-node-etcd-shopping-deploy && skaffold config set default-repo localhost:5000 && skaffold run"
     }
   ],
   "display": [
