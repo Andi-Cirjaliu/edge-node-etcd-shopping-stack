@@ -1,0 +1,43 @@
+{
+  "name": "Shopping list",
+  "description": "A sample Node.js and edcd database to try on operator playground",
+  "logo": "_images/stack.png",
+  "has_supporting_content": false,
+  "stack_id": "shopping-app-stack",
+  "type": "stack",
+  "categories": [
+    "Express",
+    "Frontend",
+    "Backend"
+  ],
+  "platform": "Kubernetes",
+  "cover": "cover.md",
+  "commands": [
+    {
+      "description": "Clone the repository",
+      "exec": "git clone https://github.com/Andi-Cirjaliu/-edge-node-etcd-shopping-deploy.git"
+    }
+  ],
+  "display": [
+    {
+      "name": "Developer Dashboard",
+      "url": "##DNS.host##/codeserver",
+      "enabled": true
+    }
+  ],
+  "buckets": [],
+  "meta": {
+    "Install time": [
+      "10 minutes"
+    ],
+    "Language": [
+      "NodeJs"
+    ],
+    "categories": [
+      "Express",
+      "Frontend",
+      "Backend"
+    ]
+  },
+  "isDocumentSaved": true
+}
