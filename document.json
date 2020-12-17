@@ -2,7 +2,7 @@
   "name": "Shopping list",
   "description": "A sample Node.js and edcd database to try on operator playground",
   "logo": "_images/stack.png",
-  "has_supporting_content": false,
+  "has_supporting_content": true,
   "stack_id": "shopping-app-stack",
   "type": "stack",
   "categories": [
@@ -50,5 +50,8 @@
       "Backend"
     ]
   },
+  "content":[
+    "shopping-application-tutorial.md"
+ ],
   "isDocumentSaved": true
 }

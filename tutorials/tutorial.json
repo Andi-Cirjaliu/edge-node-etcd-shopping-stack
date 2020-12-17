@@ -1,0 +1,21 @@
+{
+   "name":"Etcd database Tutorial",
+   "appLayout":"accordion",
+   "appTheme":"g90",
+   "footer":"footer.md",
+   "tutorials":[
+      {
+         "description":"This is a Node.js application deployed as a microservice.",
+         "duration":"30 min",
+         "tutorial_name":"shopping-application-tutorial.md",
+         "title":"Shopping List Application (Node.js/Etcd)"
+      }
+   ],
+   "usefulLinks":[
+      {
+         "title":"Skaffold",
+         "description":"Skaffold handles the workflow for building, pushing and deploying your application, allowing you to focus on what matters most: writing code. ",
+         "url":"https://skaffold.dev/"
+      }
+   ]
+}
