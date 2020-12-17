@@ -7,7 +7,7 @@
     "NodeJs"
   ],
   "document": "data-logging-stack",
-  "stack_id": "shopping-app-stack",
+  "stack_id": "shopping-list-app-stack",
   "type": "stack",
   "categories": [
     "Express",
