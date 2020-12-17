@@ -17,7 +17,7 @@ URL :  http://##DNS.ip##:30456
 
 ### Code Structure
 
-![codestructure](_images/employment-app-structure.png)
+![codestructure](_images/shopping-app-structure.png)
 
 It follows a simple modular and MVC pattern. There are 2 folders that are of our interest:
 - k8s :  This contains all the deployment and service yaml for the application. This defines the deployment and exposure of our application.
@@ -50,7 +50,7 @@ skaffold dev --default-repo localhost:5000/app
 On exiting the command, Skaffold will automatically destroy all the resources it created with above command.
 
 
-Also, you can use the `skaffold run` to deploy the changes onto kubernetes as a normal mode. In this mode, the resources created remains unless the user deletes them.
+Also, you can use the `skaffold run --default-repo localhost:5000/app` to deploy the changes onto kubernetes as a normal mode. In this mode, the resources created remains unless the user deletes them.
 
 ### Clean up the Kubernetes resources
 
