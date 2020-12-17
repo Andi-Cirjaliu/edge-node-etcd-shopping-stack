@@ -57,5 +57,5 @@ Also, you can use the `skaffold run` to deploy the changes onto kubernetes as a 
 You can delete all the application resources created by executing the following command:
 
 ```execute
-kubectl delete -f k8s/
+skaffold delete
 ```
