@@ -15,12 +15,20 @@
   "cover": "cover.md",
   "commands": [
     {
-      "description": "Clone the repository",
+      "description": "Get sample code:",
       "exec": "cd /home/student/projects && git clone https://github.com/Andi-Cirjaliu/edge-node-etcd-shopping-deploy.git"
     },
     {
-      "description": "Install and start the application using skaffold tool",
-      "exec": "cd /home/student/projects/edge-node-etcd-shopping-deploy && skaffold config set default-repo localhost:5000 && skaffold run"
+      "description": "Navigate to the example:",
+      "exec": "ccd /home/student/projects/edge-node-etcd-shopping-deploy"
+    },
+    {
+      "description": "Setup skaffold default repository to the local one:",
+      "exec": "skaffold config set default-repo localhost:5000"
+    },
+    {
+      "description": "Install and start the sample.",
+      "exec": "skaffold dev"
     }
   ],
   "display": [
